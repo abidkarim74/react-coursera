@@ -5,7 +5,6 @@ import '../CartPage.css';
 
 const CartPage: React.FC = () => {
   const { cart, removeFromCart, updateQuantity, cartTotal } = useCart();
-
   return (
     <div className="cart-container">
       <h1>Your Shopping Cart</h1>
